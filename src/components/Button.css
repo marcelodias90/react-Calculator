@@ -10,4 +10,34 @@
     border-right: var(--border--button);
     border-bottom: var(--border--button);
     outline: none;
+    font-weight: bold;
+}
+
+.button:active{
+    background-color: rgb(96, 130, 182);
+}
+
+.button.double{
+    grid-column: span 2;
+}
+
+.button.triple{
+    grid-column: span 3;
+}
+
+.button.operation{
+    background-color: rgb(211, 211, 211);
+    color: black;
+}
+
+.button.igual{
+    background-color: cornflowerblue;
+}
+
+.button.igual:active{
+    background-color: 	rgb(96, 130, 182);
+}
+
+.button.operation:active{
+    background-color: rgb(96, 130, 182);
 }
